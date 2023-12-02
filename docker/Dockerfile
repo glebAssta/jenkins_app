@@ -1,3 +1,3 @@
 FROM alpine
-RUN pip install awscli
+RUN apt install awscli
 CMD tail -f /dev/null
